@@ -1,0 +1,33 @@
+   body {
+            background-color: #f0f0f0;
+        }
+        .action {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .action:hover {
+            background-color: #f0f0f0;
+        }
+        .btn-primary{
+            background-color: #3853a3;
+        }   
+
+/*Estilos actualizados para el botón de Regresar*/
+.btn-regresar {
+    position: absolute; /*Posición absoluta respecto al contenedor*/
+    bottom: 20px; /*Abajo a 20px del borde del contenedor*/
+    right: 20px; /*Derecha a 20px del borde del contenedor*/
+    padding: 10px 20px; /*Espaciado interno del botón*/
+    background-color: #D95F18; /*Color de fondo del botón*/
+    color: white; /*Color del texto del botón*/
+    border: none; /*Sin borde */
+    border-radius: 5px; /*Bordes redondeados*/
+    cursor: pointer; /*Cambia el cursor al pasar por encima*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*Sombra suave*/
+    transition: background-color 0.2s; /*Transición suave al cambiar el color de fondo*/
+}
+
+/*Estilos para el botón de Regresar al pasar el mouse*/
+.btn-regresar:hover {
+    background-color: #F2BE22; /*Cambio de color de fondo al pasar el mouse sobre el botón de Regresar*/
+}
